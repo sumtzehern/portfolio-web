@@ -52,11 +52,19 @@ export const experiencesData = [
   },
   {
     title: "Open Source Contributor",
-    location: "Remote",
+    location: "San Francisco",
     description:
       "Continuously contributing to different open-source projects, including those related to web development and AI. Open to full-time opportunities where I can leverage my skills in software engineering.",
     icon: React.createElement(FaReact),
     date: "2024 - present",
+  },
+  {
+    title: "Lead Software Engineer",
+    location: "Remote",
+    description:
+      "As Lead Software Engineer at Mesh, I developed an AI-powered invoice automation platform that streamlined financial operations for SMBs by automating invoice tracking, payment reminders, and data extraction.",
+    icon: React.createElement(FaReact),
+    date: "2025 - present",
   },
 ] as const;
 
@@ -107,5 +115,8 @@ export const skillsData = [
   "Pinecone",
   "Firebase",
   "Amazon Web Services",
+  "Apache Kafka",
+  "Redis",
+  "Kubernetes",
 ] as const;
 
